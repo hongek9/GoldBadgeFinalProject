@@ -1,0 +1,9 @@
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\bin\Debug\ChallengeOne.UI.exe.config
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\bin\Debug\ChallengeOne.UI.exe
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\bin\Debug\ChallengeOne.UI.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\bin\Debug\ChallengeOne.Repo.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\bin\Debug\ChallengeOne.Repo.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\obj\Debug\ChallengeOne.UI.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\obj\Debug\ChallengeOne.UI.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\obj\Debug\ChallengeOne.UI.exe
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeOne.UI\obj\Debug\ChallengeOne.UI.pdb
