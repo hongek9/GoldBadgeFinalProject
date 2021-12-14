@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.Repo\bin\Debug\ChallengeThree.Repo.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.Repo\bin\Debug\ChallengeThree.Repo.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.Repo\obj\Debug\ChallengeThree.Repo.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.Repo\obj\Debug\ChallengeThree.Repo.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.Repo\obj\Debug\ChallengeThree.Repo.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.Repo\obj\Debug\ChallengeThree.Repo.pdb
