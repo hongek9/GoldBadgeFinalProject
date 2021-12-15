@@ -21,7 +21,7 @@ namespace ChallengeThree.UI
             _repo = new BadgeRepo();
             Badge badgeOne = new Badge(5817, new List<string> { "A1", "B2" }, "Ellie Hong");
             Badge badgeTwo = new Badge(3418, new List<string> { "A1", "B2", "C4" }, "Brian Leppert");
-            Badge badgeThree = new Badge(5817, new List<string> { "A1", "B2", "D5" }, "Echo Hong");
+            Badge badgeThree = new Badge(2874, new List<string> { "A1", "B2", "D5" }, "Echo Hong");
 
             _repo.CreateBadge(badgeOne.BadgeID, badgeOne.DoorNames);
             _repo.CreateBadge(badgeTwo.BadgeID, badgeTwo.DoorNames);
@@ -75,7 +75,7 @@ namespace ChallengeThree.UI
             Console.WriteLine("Enter user's badge ID:");
             newBadge.BadgeID = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(("Enter user's first and last name:");
+            Console.WriteLine("Enter user's first and last name:");
             newBadge.Name = Console.ReadLine();
 
             bool addAnotherDoor = true;
@@ -83,7 +83,14 @@ namespace ChallengeThree.UI
             while (addAnotherDoor)
             {
                 Console.WriteLine("List a door that the user needs access to:");
-                newBadge.DoorNames.Add(Console.ReadLine());
+                
+                if(newBadge.DoorNames == null)
+                {
+                    newBadge.DoorNames = new List<string> { Console.ReadLine() };
+                } else
+                {
+                    newBadge.DoorNames.Add(Console.ReadLine());
+                }
 
                 Console.WriteLine("Any other doors? (y/n)");
                 string input = Console.ReadLine().ToLower();
@@ -99,11 +106,66 @@ namespace ChallengeThree.UI
         }
         private void EditBadge()
         {
+            ListAllBadges();
 
+            Console.WriteLine("Enter the BadgeID that you want to edit:");
+            int badgeId = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("What action would you like to do?\n" +
+                "1. Add a Door\n" +
+                "2. Remove a Door");
+
+            string userAction = Console.ReadLine();
+
+            if(userAction == "1")
+            {
+                Console.WriteLine("Enter door you would like access:");
+                string newDoor = Console.ReadLine();
+
+                bool isSuccessful = _repo.AddDoorToBadge(badgeId, newDoor);
+                if (isSuccessful)
+                {
+                    Console.WriteLine("Door sucessfully added to user.");
+                } else
+                {
+                    Console.WriteLine("Sorry, something went wrong.");
+                }
+            } else
+            {
+                Console.WriteLine("Enter the door you would like to remove:");
+                string doorToRemove = Console.ReadLine();
+
+                bool isSuccessful = _repo.RemoveDoorOnBadge(badgeId, doorToRemove);
+                if (isSuccessful)
+                {
+                    Console.WriteLine("Door sucessfully removed from user.");
+                }
+                else
+                {
+                    Console.WriteLine("Sorry, something went wrong.");
+                }
+            }
+
+            
         }   
         private void ListAllBadges()
         {
+            Console.WriteLine("{0,-8} | {1,10}", "Badge ID", "Door Access");
 
+            Dictionary<int, List<string>> badges = _repo.GetAllBadges();
+
+            foreach(var badge in badges)
+            {
+                DisplayBadge(badge.Key, badge.Value);
+            }
+        }
+
+        private void DisplayBadge(int badgeId, List<string> doors)
+        {
+            Console.Write("{0,-8} |", badgeId);
+            doors.ForEach(i => Console.Write("{0}, ", i));
+            Console.WriteLine();
+            
         }
 
     }

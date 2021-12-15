@@ -1,0 +1,9 @@
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\obj\Debug\ChallengeThree.UI.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\obj\Debug\ChallengeThree.UI.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\bin\Debug\ChallengeThree.UI.exe.config
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\bin\Debug\ChallengeThree.UI.exe
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\bin\Debug\ChallengeThree.UI.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\bin\Debug\ChallengeThree.Repo.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\bin\Debug\ChallengeThree.Repo.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\obj\Debug\ChallengeThree.UI.exe
+C:\ElevenFiftyProjects\GoldBadge\GoldBadgeFinalProject\ChallengeThree.UI\obj\Debug\ChallengeThree.UI.pdb
